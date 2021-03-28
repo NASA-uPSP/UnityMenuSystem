@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
+	public SplashMenu1 SplashMenu1Prefab;
+	public SplashMenu2 SplashMenu2Prefab;
 	public MainMenu MainMenuPrefab;
 	public GameMenu GameMenuPrefab;
 	public PauseMenu PauseMenuPrefab;
@@ -18,7 +20,7 @@ public class MenuManager : MonoBehaviour
     {
         Instance = this;
 
-		MainMenu.Show();
+		SplashMenu1.Show();
     }
 
     private void OnDestroy()
