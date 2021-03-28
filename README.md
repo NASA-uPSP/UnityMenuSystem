@@ -1,3 +1,3 @@
 # UnityMenuSystem
 
-Demonstrates flexible menu architecture from https://github.com/YousicianGit.
+Demonstrates flexible menu architecture from https://github.com/YousicianGit/UnityMenuSystem.
